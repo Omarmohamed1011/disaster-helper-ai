@@ -25,14 +25,14 @@ const Navbar = () => {
         <a href="#" className="flex items-center space-x-2">
           <img 
             src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" 
-            alt="DisasterHelper Logo" 
+            alt="HumanitarianChain Logo" 
             className="w-10 h-10 rounded-full object-cover"
           />
           <span className={cn(
             "font-medium text-lg transition-colors duration-300",
             scrolled ? "text-gray-900" : "text-gray-800"
           )}>
-            DisasterHelper
+            HumanitarianChain
           </span>
         </a>
         

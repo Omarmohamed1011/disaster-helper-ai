@@ -39,16 +39,16 @@ const Hero = () => {
           className="text-4xl md:text-6xl font-bold mb-6 text-gray-900 opacity-0"
         >
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
-            Disaster Response
+            Blockchain Integrated Humanitarian
           </span>
-          Reimagined with AI & Blockchain
+          Food Supply Chain with AI Forecasting
         </h1>
         
         <p 
           ref={subtitleRef}
           className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-10 opacity-0"
         >
-          A revolutionary platform that combines the power of artificial intelligence and blockchain technology to predict, track, and aid disaster-affected areas with unprecedented efficiency and transparency.
+          A revolutionary platform that combines the power of artificial intelligence and blockchain technology to predict, track, and optimize food distribution in crisis-affected areas with unprecedented efficiency and transparency.
         </p>
         
         <div 

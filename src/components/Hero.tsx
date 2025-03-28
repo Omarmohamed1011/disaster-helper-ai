@@ -46,14 +46,14 @@ const Hero = () => {
         
         <p 
           ref={subtitleRef}
-          className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-10 opacity-0"
+          className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-10"
         >
           A revolutionary platform that combines the power of artificial intelligence and blockchain technology to predict, track, and optimize food distribution in crisis-affected areas with unprecedented efficiency and transparency.
         </p>
         
         <div 
           ref={ctaRef}
-          className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 opacity-0"
+          className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6"
         >
           <button className="px-8 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-300 shadow-lg hover:shadow-xl text-lg font-medium w-full sm:w-auto flex items-center justify-center">
             <span>Get Started</span>

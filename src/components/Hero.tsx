@@ -36,7 +36,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto z-10 text-center">
         <h1 
           ref={titleRef}
-          className="text-4xl md:text-6xl font-bold mb-6 text-gray-900 opacity-0"
+          className="text-4xl md:text-6xl font-bold mb-6 text-gray-900"
         >
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
             Blockchain Integrated Humanitarian

@@ -47,14 +47,14 @@ const PredictionMap = () => {
   return (
     <section 
       id="predictions" 
-      className="py-24 px-6 bg-gradient-to-b from-blue-50 to-white"
+      className="py-16 px-6 bg-gradient-to-b from-blue-50 to-white" // Reduced vertical padding
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <span className="px-4 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-medium mb-4 inline-block">
+        <div className="text-center mb-10"> {/* Reduced bottom margin */}
+          <span className="px-4 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-medium mb-3 inline-block"> {/* Reduced margin */}
             AI POWERED
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900"> {/* Reduced margin */}
             Predicting Disaster-Prone Areas
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">

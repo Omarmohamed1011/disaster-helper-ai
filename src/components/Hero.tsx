@@ -27,7 +27,7 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center justify-center pt-16 px-6 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center pt-14 px-6 overflow-hidden" // Reduced top padding
     >
       {/* Background circles */}
       <div className="absolute top-1/4 left-1/5 w-64 h-64 rounded-full bg-blue-100/30 blur-3xl animate-float"></div>
@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
         
         {/* Scroll indicator */}
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block">
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block"> // Moved up
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-500">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <polyline points="19 12 12 19 5 12"></polyline>

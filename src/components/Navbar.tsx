@@ -23,9 +23,11 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center">
-            <span className="text-white font-semibold text-lg">DH</span>
-          </div>
+          <img 
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" 
+            alt="DisasterHelper Logo" 
+            className="w-10 h-10 rounded-full object-cover"
+          />
           <span className={cn(
             "font-medium text-lg transition-colors duration-300",
             scrolled ? "text-gray-900" : "text-gray-800"

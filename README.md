@@ -1,69 +1,120 @@
-# Welcome to your Lovable project
 
-## Project info
+# AI-Powered Disaster Response Platform
 
-**URL**: https://lovable.dev/projects/8bd3eb8c-1206-41ad-ae43-d9730c149d49
+A modern web application designed to predict, analyze, and respond to natural disasters using artificial intelligence and blockchain technology.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+### 1. AI Prediction System
+- Real-time disaster prediction using machine learning models
+- Geographic visualization of high-risk areas
+- Population density and infrastructure damage assessment
+- Weather pattern recognition integration
 
-**Use Lovable**
+### 2. Model Evaluation Framework
+- Comprehensive training data analysis from 27 crisis regions
+- 92% prediction accuracy on training sets
+- Cross-validation across different geographical regions
+- Independent evaluation by humanitarian experts
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8bd3eb8c-1206-41ad-ae43-d9730c149d49) and start prompting.
+### 3. Resource Allocation
+- Real-time optimization of aid distribution
+- Population density tracking
+- Infrastructure damage assessment
+- Medical need prioritization
+- Supply route accessibility monitoring
 
-Changes made via Lovable will be committed automatically to this repo.
+### 4. Technology Stack
 
-**Use your preferred IDE**
+**Frontend:**
+- React with TypeScript
+- Vite for build tooling
+- Tailwind CSS for styling
+- shadcn/ui for UI components
+- React Router for navigation
+- Recharts for data visualization
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**AI Components:**
+- Random Forest for disaster classification
+- LSTM Networks for time-series prediction
+- CNN for satellite data analysis
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+### Prerequisites
+- Node.js (Latest LTS version recommended)
+- npm or yarn package manager
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Clone the repository
+```bash
+git clone <your-repository-url>
+cd <project-name>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Install dependencies
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/          # React components
+│   ├── AISection/      # AI features documentation
+│   ├── PredictionMap/  # Geographic prediction visualization
+│   └── ui/             # Reusable UI components
+├── pages/              # Route pages
+├── lib/               # Utility functions
+└── hooks/             # Custom React hooks
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Key Components
 
-## What technologies are used for this project?
+### PredictionMap
+Interactive map showing disaster-prone areas with risk levels and detailed analytics.
 
-This project is built with .
+### ModelEvaluationTable
+Comprehensive display of model performance metrics, including:
+- Training results (92% accuracy)
+- Validation outcomes
+- Pilot testing results
+- Evaluation metrics
+- Generalization capabilities
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### AISection
+Detailed documentation of AI implementation including:
+- Predictive analytics
+- Real-time resource allocation
+- Technology stack details
 
-## How can I deploy this project?
+## Development
 
-Simply open [Lovable](https://lovable.dev/projects/8bd3eb8c-1206-41ad-ae43-d9730c149d49) and click on Share -> Publish.
+This project uses:
+- TypeScript for type safety
+- React Query for data fetching
+- Tailwind CSS for styling
+- shadcn/ui for component library
+- Vite for fast development and building
 
-## I want to use a custom domain - is that possible?
+## Contributing
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
